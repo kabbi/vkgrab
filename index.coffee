@@ -1,13 +1,6 @@
 # Some useful libs
-EventEmitter = require("events").EventEmitter
 VkDumper = require("./dumper").VkDumper
 Vk = require("./vk").Vk
-ProgressBar = require "progress"
-request = require "request"
-async = require "async"
-http = require "http"
-path = require "path"
-fs = require "fs"
 # Logging here
 rufus = require "rufus"
 logger = rufus.getLogger "index"
