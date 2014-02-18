@@ -1,3 +1,4 @@
+# Some common failous extensions
 lib-cov
 *.seed
 *.log
@@ -7,9 +8,19 @@ lib-cov
 *.pid
 *.gz
 
+# Some strange dirs
 pids
 logs
 results
 
+# And nodejs output rubbish
 npm-debug.log
 node_modules
+
+# Vkgrab grabbed things
+backups
+data
+
+# Config files
+config.json
+config.json~

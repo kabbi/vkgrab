@@ -1,0 +1,32 @@
+{
+	"vk": {
+		"params": {
+			"access_token": null,
+			"v": "5.7",
+			"lang": null,
+			"https": "1"
+		},
+		"apiCallRateLimit": {
+			"count": 3,
+			"time": 1200
+		},
+		"appId": 1936127,
+		"userId": null,
+		"userName": null,
+		"expectedPermissions": 2079998,
+		"baseUrl": "https://api.vk.com/method/"
+	},
+	"logs": {
+		"loggers": {
+			"vk": {
+				"level": "INFO"
+			},
+			"dumper": {
+				"level": "DEBUG"
+			}
+		}
+	},
+	"dumpCategories": [
+		"self"
+	]
+}
